@@ -97,6 +97,29 @@
                                             </div>
                                         </div>
 
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <label>Class: </label></br>
+                                                <input type="checkbox" th:field="${ticketSearchDTO.economyClass}"
+                                                       th:value="${true}"><a>-Phổ thông - Bay tiết kiệm, đáp ứng mọi
+                                                nhu cầu
+                                                cơ bản</a></br>
+                                                <input type="checkbox"
+                                                       th:field="${ticketSearchDTO.specialEconomyClass}"
+                                                       th:value="${true}"><a>-Phổ thông đặc biệt - Chi phí hợp lý với
+                                                bữa ăn
+                                                ngon và chỗ để chân rộng rãi.</a></br>
+                                                <input type="checkbox" th:field="${ticketSearchDTO.businessClass}"
+                                                       th:value="${true}"><a>-Thương gia - Bay đẳng cấp, với quầy làm
+                                                thủ
+                                                tục và khu ghế ngồi riêng.</a></br>
+                                                <input type="checkbox" th:field="${ticketSearchDTO.firstClass}"
+                                                       th:value="${true}"><a>-Hạng nhất - Hạng cao cấp nhất, với dịch
+                                                vụ 5
+                                                sao được cá nhân hoá.</a></br>
+                                            </div>
+                                        </div>
+
 
                                         <div class="row">
                                             <div class="col-md-6 mb-4 ">
@@ -123,28 +146,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <label>Class: </label></br>
-                                                    <input type="checkbox" th:field="${ticketSearchDTO.economyClass}"
-                                                        th:value="${true}"><a>-Phổ thông - Bay tiết kiệm, đáp ứng mọi
-                                                        nhu cầu
-                                                        cơ bản</a></br>
-                                                    <input type="checkbox"
-                                                        th:field="${ticketSearchDTO.specialEconomyClass}"
-                                                        th:value="${true}"><a>-Phổ thông đặc biệt - Chi phí hợp lý với
-                                                        bữa ăn
-                                                        ngon và chỗ để chân rộng rãi.</a></br>
-                                                    <input type="checkbox" th:field="${ticketSearchDTO.businessClass}"
-                                                        th:value="${true}"><a>-Thương gia - Bay đẳng cấp, với quầy làm
-                                                        thủ
-                                                        tục và khu ghế ngồi riêng.</a></br>
-                                                    <input type="checkbox" th:field="${ticketSearchDTO.firstClass}"
-                                                        th:value="${true}"><a>-Hạng nhất - Hạng cao cấp nhất, với dịch
-                                                        vụ 5
-                                                        sao được cá nhân hoá.</a></br>
-                                                </div>
-                                            </div>
+
 
                                             <div class="btn-container"
                                                 style="text-align: center;padding-top: 30px;border: none;">
